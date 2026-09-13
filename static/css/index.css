@@ -99,6 +99,11 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 
+/* Slightly wider page width for content containers */
+.container.is-max-desktop {
+  max-width: 1140px;
+}
+
 .hero-body {
   padding: 4rem 1.5rem;
 }
@@ -340,7 +345,6 @@ body {
 .content.has-text-justified p {
   margin-bottom: 1.5rem;
 }
-
 /* Footer Improvements */
 .footer {
   background: var(--background-secondary);
@@ -750,4 +754,207 @@ a:focus {
 }
 
 
+/* Custom list with small arrows */
+.styled-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px; /* Add some padding to the left */
+}
 
+.styled-list li {
+  position: relative;
+  padding-left: 20px; /* Add space for the custom arrow */
+  margin-bottom: 10px;
+}
+
+/* Add small arrows before each list item */
+.styled-list li::before {
+  content: "→"; /* Small arrow symbol */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2rem; /* Adjust the size of the arrow */
+}
+
+/* Custom color for highlighted text */
+.highlight-text-green {
+  color: #066006; /* Change the color of the highlighted text */
+}
+
+.highlight-text-red {
+  color: #7f0000; /* Change the color of the highlighted text */
+}
+
+.highlight-text-purple {
+  color: #4d0a7f; /* Change the color of the highlighted text */
+}
+
+.orange-text {
+  color: #b45309; /* Change the color of the orange text */
+}
+
+.blue-text {
+  color: #1e40af; /* Change the color of the blue text */
+}
+
+.subsubtitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.figure-caption { 
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Styling for the image container */
+.image-container {
+  display: flex;            /* Use Flexbox to arrange images side by side */
+  justify-content: center;  /* Center the images in the container */
+  align-items: center;      /* Align images vertically */
+  flex-wrap: wrap;          /* Wrap on smaller screens */
+  gap: 1.5rem;              /* Add space between the two images */
+  margin-top: 20px;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-method {
+  width: 80%;             
+  height: auto;
+  text-align: center;  
+}
+
+.image-method img {
+  display: block;          /* 使图片成为块级元素 */
+  margin: 0 auto;          /* 自动左右边距，居中图片 */
+  width: 100%;             /* 让图片宽度自适应容器 */
+  height: auto;            /* 保持图片比例 */
+}
+
+.centered-gif {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.image-sim1 {
+  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-sim2 {
+  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+li {
+  font-size: 1.25rem;  /* 设置字体大小 */
+}
+
+.image-simresult1 {
+  display: block;
+  margin: 0 auto;
+  /* width: 100%; */
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.image-simresult2 {
+  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-simresult3 {
+  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-exp1 {
+  width: 30%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-exp2 {
+  width: 40%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+.video-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.video-card {
+  width: 48%;
+  max-width: 560px;
+}
+
+.video-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  background: #000;
+}
+
+.video-card p {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #4a4a4a;
+}
+
+.video-tree {
+  display: block;
+  width: 50%;
+  max-width: 720px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.75rem;
+  background: #000;
+}
+
+.image-exp3 {
+  width: 50%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-exp4 {
+  width: 50%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-exp5 {
+  width: 65%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-expresult1 {
+  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
+
+.image-expresult2 {
+  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  height: auto;
+  text-align: center;      /* Center the images */
+}
