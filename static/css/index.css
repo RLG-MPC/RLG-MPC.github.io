@@ -948,13 +948,25 @@ li {
 }
 
 .image-expresult1 {
-  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  width: 85%;              /* Ensure each image takes up nearly half of the container */
   height: auto;
   text-align: center;      /* Center the images */
 }
 
 .image-expresult2 {
-  width: 45%;              /* Ensure each image takes up nearly half of the container */
+  width: 65%;              /* Ensure each image takes up nearly half of the container */
   height: auto;
   text-align: center;      /* Center the images */
+}
+.video-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+
+.video-row video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
