@@ -900,20 +900,21 @@ li {
   margin-top: 1.5rem;
 }
 
-.video-card {
-  width: 48%;
+/* .video-card {
+  width: 100%;
   max-width: 560px;
-}
+} */
 
-.video-card video {
+/* .video-card video {
   width: 100%;
   height: auto;
   border-radius: 0.75rem;
   background: #000;
-}
+} */
 
-.video-card p {
-  margin-top: 0.75rem;
+.video-card {
+  width: 100%;
+  max-width: 560px;
   text-align: center;
   font-size: 0.95rem;
   color: #4a4a4a;
